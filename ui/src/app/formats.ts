@@ -19,6 +19,7 @@ export const Formats: Format[] = [
       { id: '1080', text: '1080p' },
       { id: '720', text: '720p' },
       { id: '480', text: '480p' },
+      { id: '360', text: '360p' },
       { id: 'audio', text: 'Audio Only' },
     ],
   },
@@ -31,6 +32,7 @@ export const Formats: Format[] = [
       { id: '1080', text: '1080p' },
       { id: '720', text: '720p' },
       { id: '480', text: '480p' },
+      { id: '360', text: '360p' },
     ],
   },
   {
