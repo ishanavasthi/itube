@@ -23,7 +23,7 @@ class Config:
         'URL_PREFIX': '',
         'OUTPUT_TEMPLATE': '%(title)s.%(ext)s',
         'OUTPUT_TEMPLATE_CHAPTER': '%(title)s - %(section_number)s %(section_title)s.%(ext)s',
-        'YTDL_OPTIONS': '--write-subs',
+        'YTDL_OPTIONS': '{}',
     }
 
     def __init__(self):
