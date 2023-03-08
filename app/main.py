@@ -21,9 +21,9 @@ class Config:
         'CREATE_CUSTOM_DIRS': 'true',
         'STATE_DIR': '.',
         'URL_PREFIX': '',
-        'OUTPUT_TEMPLATE': '%(title)s[PoweredByIshanAvasthi].%(ext)s',
+        'OUTPUT_TEMPLATE': '%(title)s.IshanAvasthi.%(ext)s',
         'OUTPUT_TEMPLATE_CHAPTER': '%(title)s - %(section_number)s %(section_title)s[PoweredByIshanAvasthi].%(ext)s',
-        'YTDL_OPTIONS': '{}',
+        'YTDL_OPTIONS': '{--write-subs}',
     }
 
     def __init__(self):
